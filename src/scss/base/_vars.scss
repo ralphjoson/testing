@@ -1,0 +1,45 @@
+/**
+ * Variables
+*/
+
+/* Typography */
+/* Breakpoints */
+/* Paths */
+/* Grid setup */
+/* Colour palette */
+$black: #000;
+$white: #fff;
+$light-gray: #f1f1f1;
+
+$body-background-color: #333;
+$foreground-color: #fff;
+$caption-color: #464646;
+$accent-color: #999;
+$link-color: #ec1f4e;
+
+/* Components */
+
+// Layout Breakpoints
+$layout--bp_mobile: 375px;
+$layout--bp_tablet: 768px;
+$layout--bp_sm-desktop: 1024px;
+$layout--bp_lg-desktop: 1280px;
+$layout--bp_wide: 1440px;
+$layout--bp_large: 1920px;
+
+// Grid Gutters
+$gutter--bp_mobile: 10px;
+$gutter--bp_tablet: 14px;
+$gutter--bp_desktop: 20px;
+
+// Grid Margins (Left and Right)
+$grid-margin--bp_mobile: 20px;
+$grid-margin--bp_tablet: 30px;
+$grid-margin--bp_desktop: 50px;
+
+$container-max-width: 1340px;
+
+
+// Base font size
+$base-font-size: 16;
+

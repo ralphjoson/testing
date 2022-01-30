@@ -1,0 +1,29 @@
+.testing-navigation {
+  background-color: #222;
+  padding: rem(15);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  @include sm-desktop {
+    padding: rem(20);
+  }
+
+  &__logo {
+    grid-column: 1 / span 3;
+  }
+
+  &__links {
+
+
+    @include sm-desktop {
+      grid-column: 7 / span 6;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  li {
+    margin-left: rem(20);
+  }
+}

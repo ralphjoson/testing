@@ -1,0 +1,32 @@
+.testing-grid {
+  padding: rem(60) 0;
+
+  h2 {
+    font-size: rem(60);
+    grid-column: span 12;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: rem(40);
+    font-weight: 700;
+  }
+
+  p {
+    grid-column: span 12;
+    margin-bottom: rem(60);
+    font-size: rem(16);
+    text-align: center;
+  }
+
+  &__item {
+    grid-column: span 4;
+    border: solid rem(1) white;
+    margin-bottom: rem(30);
+    padding: rem(30) rem(30);
+    flex: 1;
+    min-height: rem(200);
+
+    a {
+      font-size: rem(40);
+    }
+  }
+}
